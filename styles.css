@@ -22,8 +22,12 @@ body {
 }
 
 p {
-    color: rgb(35, 35, 35);
+    color: rgb(90, 90, 90);
     word-spacing: .04rem;
+}
+
+strong {
+    color: rgb(35, 35, 35);
 }
 
 .summary>p {
@@ -47,7 +51,7 @@ h1 {
 
 .card {
     display: grid;
-    grid-template-columns: minmax(2px, auto) 38px minmax(auto, 295px) 38px minmax(2px, auto);
+    grid-template-columns: minmax(2px, auto) 38px minmax(295px, 375px) 38px minmax(2px, auto);
     grid-template-rows: minmax(100px, auto) auto 170px 100px auto 100px minmax(100px, auto);
 }
 
@@ -63,10 +67,9 @@ button {
     border-radius: 10px;
     color: white;
     letter-spacing: .063rem;
-    text-align: center;
     font-size: 1.125rem;
     padding: 16px;
-    width: 295px;
+    width: 340px;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -o-transition: all 0.5s;
@@ -99,39 +102,48 @@ button {
 .annualPlan {
     grid-column: 2 / 5;
     grid-row: 4 / 5;
-    padding: 0 40px;
+}
+
+.annualPlan {
     grid-template-columns: 1fr 3fr 1fr;
+    margin: 5px 50px;
     align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
 }
 
 .icon {
     grid-column: 1 / 2;
-    width: 50px;
-    padding: 0 5px;
+    width: 90%;
+    padding-left: 15px;
 }
 
 .plan {
     grid-column: 2 / 3;
     padding-left: 5px;
+    line-height: 1.5rem;
 }
 
 .annualPlan>a {
-    padding-right: 5px;
+    padding-right: 10px;
 }
 
 .payment {
     grid-column: 2 / 5;
     grid-row: 5 / 6;
+    padding-top: 15px;
 }
 
 .summary {
-    grid-row: 3 / 4;
+    grid-row: 3 / 5;
+    padding-bottom: 120px;
+    padding-top: 10px;
 }
 
 .cancelOrder {
     grid-row: 6 / 7;
-    border-radius: 0 0 20px 20px;
     text-decoration: none;
+    border-radius: 0 0 20px 20px;
 }
 
 .cancelOrder>a {
