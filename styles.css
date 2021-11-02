@@ -4,51 +4,52 @@
     box-sizing: border-box;
 }
 
-html {
+.page {
     background-image: url(images/pattern-background-desktop.svg);
     width: 100%;
     background-position: top;
     background-repeat: no-repeat;
     background-size: contain;
-    background-color: hsl(225, 100%, 94%);
+    background-color: hsl(225, 100%, 98%);
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
 body {
-    /* default page styles */
     font-family: 'Red Hat Display', sans-serif;
-    letter-spacing: .063rem;
     font-size: 1rem;
-    background-color: hsl(225, 100%, 94%);
     margin: 0 auto;
+    background-color: hsl(225, 100%, 98%);
 }
 
 p {
     color: rgb(35, 35, 35);
-    padding: 20px 40px;
+    word-spacing: .04rem;
+}
+
+.summary>p {
     text-align: center;
+    letter-spacing: .043rem;
+    line-height: 1.8;
+    padding: 20px 40px;
+}
+
+.annualPlan>p {
+    text-align: left;
     line-height: 1.8;
 }
 
 h1 {
-    font-size: 2rem;
-    font-weight: 700;
+    font-size: 1.6rem;
+    font-weight: 900;
     padding-top: 20px;
     color: rgb(35, 35, 35);
-}
-
-a {
-    text-decoration: none;
 }
 
 .card {
     display: grid;
     grid-template-columns: minmax(2px, auto) 38px minmax(auto, 295px) 38px minmax(2px, auto);
-    grid-template-rows: minmax(100px, auto) auto 170px 150px auto 100px minmax(100px, auto);
+    grid-template-rows: minmax(100px, auto) auto 170px 100px auto 100px minmax(100px, auto);
 }
-
-
-/* image layout */
 
 img {
     border-radius: 20px 20px 0 0;
@@ -98,9 +99,7 @@ button {
 .annualPlan {
     grid-column: 2 / 5;
     grid-row: 4 / 5;
-    display: grid;
-    width: 100%;
-    padding: 40px;
+    padding: 0 40px;
     grid-template-columns: 1fr 3fr 1fr;
     align-items: center;
 }
@@ -108,10 +107,16 @@ button {
 .icon {
     grid-column: 1 / 2;
     width: 50px;
+    padding: 0 5px;
 }
 
 .plan {
     grid-column: 2 / 3;
+    padding-left: 5px;
+}
+
+.annualPlan>a {
+    padding-right: 5px;
 }
 
 .payment {
@@ -126,6 +131,12 @@ button {
 .cancelOrder {
     grid-row: 6 / 7;
     border-radius: 0 0 20px 20px;
+    text-decoration: none;
+}
+
+.cancelOrder>a {
+    text-decoration: none;
+    color: rgb(35, 35, 35);
 }
 
 .attribution {
@@ -143,7 +154,7 @@ button {
 }
 
 @media only screen and (min-width: 375px) {
-    html {
+    .page {
         background-image: url('images/pattern-background-mobile.svg');
     }
 }
