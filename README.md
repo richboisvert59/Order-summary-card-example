@@ -22,7 +22,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ### Screenshot
 
-![Screen Shot] (/screenshot.png)
+![Screen Shot] (screenshot.png)
 
 ### Links
 
