@@ -9,11 +9,9 @@ This is my solution to the [Order summary card challenge on Frontend Mentor](htt
   - [Screenshot](#screenshot)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -34,7 +32,7 @@ The designs were created to the following widths:
 
 ![](screenshot.png)
 
-## My Process
+## My process
 
 ### Built with
 
@@ -42,8 +40,6 @@ The designs were created to the following widths:
 - CSS custom properties
 - Flexbox
 - CSS Grid
-
-### What I learned
 
 ### Continued development
 
@@ -55,8 +51,6 @@ I will keep working on Grid templating and developemnt for responsive design. At
 
 ## Author
 
-Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@richboisvert](https://www.frontendmentor.io/profile/richboisvert59)
 
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-## Acknowledgments
+- Twitter - [@richboisvert](https://t.co/2d3EY1xNyT?amp=1)
