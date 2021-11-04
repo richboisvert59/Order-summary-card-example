@@ -2,43 +2,53 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Frontend Mentor | Order summary card</title>
-
+    <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
-    <div class='page'>
-        <div class='card'>
-            <div class='cardImage'>
-                <img src="images/illustration-hero.svg" alt="illustration of person dancing with music player in hand.">
+    <div class="container">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item content">
+            <div class="headerImage">
+                <img src="images/illustration-hero.svg" alt="illustration of person dancing while lissening music player in hand" />
             </div>
-            <div></div>
-            <div class='item summary'>
+            <div class="summary">
                 <h1>Order Summary</h1>
-                <p>You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+                <p>
+                    You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!
+                </p>
             </div>
-            <div class='item annualPlan'>
-                <div class="icon"><img src="images/icon-music.svg" alt="icon of music note"></div>
-                <div class='plan'>
-                    <p><strong>Annual Plan</strong><br>$59.99/year</p>
+
+            <div class="plan">
+                <img src="images/icon-music.svg" alt="music note icon" />
+                <div class="rate">
+                    <h2>Annual Plan</h2>
+                    <p>$59.99/year</p>
                 </div>
                 <a href="#">Change</a>
             </div>
-            <div class='item payment'>
-                <button type='button'>Proceed to Payment</button>
+            <div class="payment">
+                <button class="button">Proceed to Payment</button>
             </div>
-            <div class='item cancelOrder'>
-                <a href="#"><strong>Cancel Order</strong></a>
+            <div class="cancel">
+                <a href="#">Cancel Order</a>
             </div>
         </div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
     </div>
     <div class="attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Rich Boisvert</a>.
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a
+      >. Coded by <a href="#">Rich Boisvert</a>.
     </div>
 </body>
 
