@@ -51,6 +51,6 @@ I will keep working on Grid templating and developemnt for responsive design. At
 
 ## Author
 
-- Frontend Mentor - [@richboisvert](https://www.frontendmentor.io/profile/richboisvert59)
+- Frontend Mentor - [@richboisvert59](https://www.frontendmentor.io/profile/richboisvert59)
 
-- Twitter - [@richboisvert](https://t.co/2d3EY1xNyT?amp=1)
+- Twitter - [@richboisvert59](https://t.co/2d3EY1xNyT?amp=1)
